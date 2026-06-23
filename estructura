@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Software - Impulsamos tu futuro digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">INDEX SOFTWARE</div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link active">Inicio</a>
+            <a href="computadoras.html" class="nav-link">Computadoras</a>
+            <a href="software.html" class="nav-link">Software</a>
+            <a href="licencias.html" class="nav-link">Licencias</a>
+            <a href="ofertas.html" class="nav-link">Ofertas</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+            <a href="carrito.html" class="nav-link cart-btn">
+                <i class="fas fa-shopping-cart"></i> Carrito <span id="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <div class="top-bar-phrase">
+        <p>"No vendemos tecnología, impulsamos tu futuro digital."</p>
+    </div>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Tecnología e Inteligencia Artificial">
+            </div>
+            <div class="hero-content">
+                <h1>Bienvenido a Index Software</h1>
+                <p>Somos una tienda especializada en computadoras, software y licencias digitales. Ofrecemos tecnología de calidad, precios competitivos y soluciones para estudiantes, profesionales y empresas.</p>
+                <a href="computadoras.html" class="btn-primary">Comprar Ahora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Index Software. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
